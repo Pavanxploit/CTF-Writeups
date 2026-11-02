@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Potentially sensitive/raw challenge artifacts
+*.7z
+*.zip
+*.rar
+*.pcap
+*.pcapng
+*.wav
+*.evtx
+*.dmp
+*.bin
+victim_artifacts/
+web_activity/
+raw-data/
+private-notes/
+
+# Generated output
+dist/
+build/
+.DS_Store
+Thumbs.db
+
